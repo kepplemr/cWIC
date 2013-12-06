@@ -1,0 +1,10 @@
+L1 label
+   get A
+   get B
+   push A
+   push B
+   pop A
+   pop B
+   put A
+   put B
+   halt

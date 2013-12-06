@@ -1,0 +1,17 @@
+   get A                     | This program uses labels and a conditional jump to display the MAXIMUM
+   get B                     |   of two user-entered values.
+   push A
+   push B
+   sub
+   tstlt
+                             | Tests nop
+   jf L1
+   push B
+   pop MAX
+   j L2
+L1 label
+   push A
+   pop MAX
+L2 label
+   put MAX
+                             | Halt intentionally left out to make sure program handles this correctly.

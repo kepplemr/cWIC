@@ -1,0 +1,22 @@
+   get num                   | Program tests how many times a number must be divided by two
+                             |   before result == 0.
+   push 0
+   pop count
+L1 label
+   push num
+   push 0
+   sub
+   tstgt
+   jf L2
+   push num
+   push 2
+   div
+   pop num
+   push count
+   push 1
+   add
+   pop count
+   j L1
+L2 label
+   put count
+   halt

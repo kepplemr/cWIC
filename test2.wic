@@ -1,0 +1,33 @@
+L1 label                     | Test add
+   get A
+   get B
+   push A
+   push B
+   add
+   pop Sum
+   put Sum
+L2 label                     | Test Subtract
+   get A
+   get B
+   push A
+   push B
+   sub
+   pop Dif
+   put Dif
+L3 label                     | Test multiply
+   get A
+   get B
+   push A
+   push B
+   mult
+   pop Pro
+   put Pro
+L4 label                     | Test divide
+   get A
+   get B
+   push A
+   push B
+   div
+   pop Quo
+   put Quo
+   halt

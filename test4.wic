@@ -1,0 +1,56 @@
+L1 label                     | This program tests the comparison operators. The user enters two integers, A & B
+   get A                     |   which are subtracted B - A and then compared with zero using the various comparisons.
+   get B
+   push A
+   push B
+   sub
+   tstlt                     | Is result less than zero?
+   pop LT
+   put LT
+L2 label
+   get A
+   get B
+   push A
+   push B
+   sub
+   tstle                     | Is result less than or equal to zero?
+   pop LE
+   put LE
+L3 label
+   get A
+   get B
+   push A
+   push B
+   sub
+   tsteq                     | Is the result equal to zero?
+   pop EQ
+   put EQ
+L4 label
+   get A
+   get B
+   push A
+   push B
+   sub
+   tstne                     | Is the result not equal to zero?
+   pop NE
+   put NE
+L5 label
+   get A
+   get B
+   push A
+   push B
+   sub
+   tstge                     | Is the result greater than or equal to zero?
+   pop GE
+   put GE
+L6 label
+   get A
+   get B
+   push A
+   push B
+   sub
+   tstgt                     | Is the result greater than zero?
+   pop GT
+   put GT
+L7 label
+   halt
